@@ -34,8 +34,8 @@ Xem file `requirements.txt` để biết chi tiết các thư viện cần thi�
 
 1. Clone repository:
 ```bash
-git clone https://github.com/[your-username]/lending-club-analysis.git
-cd lending-club-analysis
+git clone https://github.com/trungkienpxa-netizen/lending-club-loan-prediction.git
+cd lending-club-loan-prediction
 ```
 
 2. Cài đặt các thư viện cần thiết:
@@ -44,14 +44,14 @@ pip install -r requirements.txt
 ```
 
 3. Tải dataset:
-- Tải file `accepted_2007_to_2018Q4.csv` từ [Lending Club](https://www.lendingclub.com/info/download-data.action)
+- Tải file `accepted_2007_to_2018Q4.csv` từ [Lending Club](https://www.kaggle.com/datasets/wordsforthewise/lending-club/data)
 - Đặt file vào thư mục gốc của project
 
 ## Sử dụng
 
 ### Chạy trên Jupyter Notebook:
 ```bash
-jupyter notebook DataMiningFinalProject__1_.ipynb
+jupyter notebook DataMiningProject.ipynb
 ```
 
 ### Chạy trên Google Colab:
@@ -103,7 +103,7 @@ jupyter notebook DataMiningFinalProject__1_.ipynb
 ```
 lending-club-analysis/
 │
-├── DataMiningFinalProject__1_.ipynb   # Notebook chính
+├── DataMiningProject.ipynb   # Notebook chính
 ├── README.md                           # File này
 ├── requirements.txt                    # Dependencies
 ├── .gitignore                          # Git ignore rules
@@ -130,10 +130,7 @@ Mọi đóng góp đều được chào đón! Vui lòng:
 5. Mở Pull Request
 
 ## Tác giả
-- **Tên của bạn** - [GitHub Profile](https://github.com/your-username)
-
-## License
-Project này được phân phối dưới giấy phép MIT License - xem file [LICENSE](LICENSE) để biết thêm chi tiết.
+- Nguyễn Trung Kiên - [GitHub Profile](https://github.com/trungkienpxa-netizen)
 
 ## Tài liệu tham khảo
 - [Lending Club Statistics](https://www.lendingclub.com/info/statistics.action)
@@ -141,8 +138,8 @@ Project này được phân phối dưới giấy phép MIT License - xem file [
 - [Spark MLlib Guide](https://spark.apache.org/docs/latest/ml-guide.html)
 
 ## Liên hệ
-- Email: your.email@example.com
-- GitHub: [@your-username](https://github.com/your-username)
+- Email: trungkienpxa@gmail.com
+- GitHub: [@trungkienpxa-netizen](https://github.com/trungkienpxa-netizen)
 
 ---
 **Note**: Dataset này chỉ dùng cho mục đích học tập và nghiên cứu.
